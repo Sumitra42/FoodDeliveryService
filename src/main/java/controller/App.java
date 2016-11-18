@@ -26,7 +26,7 @@ public class App {
 		p.setName("manoj");
 		App a=ap.getBean("mainApp", App.class);
 		Product s=a.ip.findByName("manoj");
-		System.out.println(s.getName());
+		//System.out.println(s.getName());
 	}
 	
 }
